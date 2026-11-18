@@ -1,0 +1,158 @@
+.nevian-features {
+  padding-block: 24px;
+  scroll-margin-top: 72px;
+  background: var(--site-background);
+  color: var(--site-text);
+  font-family: 'Inter Variable', Arial, sans-serif;
+}
+
+.feature-shell {
+  width: min(1120px, calc(100% - 80px));
+  margin-inline: auto;
+  container-type: inline-size;
+}
+
+.feature-heading {
+  display: grid;
+  grid-template-columns: 2fr .85fr;
+  align-items: end;
+  gap: 3.2cqw;
+  margin-bottom: 2.5cqw;
+}
+
+.feature-heading h2 {
+  margin: 0;
+  font-size: 4.5cqw;
+  font-weight: 700;
+  letter-spacing: -.038em;
+  line-height: 1.02;
+}
+
+.feature-heading p, .feature-copy p {
+  margin: 0;
+  color: var(--site-dim);
+  line-height: 1.5;
+}
+
+.feature-heading p { font-size: 1.4cqw; }
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(3, clamp(184px, min(24.9cqw, calc((100svh - 160px - 10cqw) / 3)), 280px));
+  grid-template-areas:
+    'desk procurement procurement'
+    'desk support inventory'
+    'changes knowledge security';
+  gap: 1.4cqw;
+}
+
+.feature-cell { min-width: 0; min-height: 0; }
+.feature-cell--service-desk { grid-area: desk; }
+.feature-cell--procurement { grid-area: procurement; }
+.feature-cell--support { grid-area: support; }
+.feature-cell--inventory { grid-area: inventory; }
+.feature-cell--changes { grid-area: changes; }
+.feature-cell--knowledge { grid-area: knowledge; }
+.feature-cell--security { grid-area: security; }
+
+.feature-card {
+  --inset: 2.5cqw;
+  position: relative;
+  isolation: isolate;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--site-line);
+  border-radius: 1.7cqw;
+  background: var(--site-background);
+}
+
+.feature-copy {
+  position: absolute;
+  z-index: 1;
+  top: var(--inset);
+  left: var(--inset);
+  width: calc(53% - var(--inset));
+}
+
+.feature-copy h3 {
+  margin: 0 0 .9cqw;
+  font-size: clamp(17px, 2.08cqw, 24px);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: 1.04;
+  overflow-wrap: anywhere;
+}
+
+.feature-copy p { font-size: clamp(12px, 1.22cqw, 14px); }
+
+.feature-art {
+  position: absolute;
+  right: 0;
+  bottom: 3%;
+  width: 47%;
+  height: 77%;
+  pointer-events: none;
+}
+
+.feature-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
+.feature-cell--service-desk .feature-copy,
+.feature-cell--procurement .feature-copy { top: auto; bottom: var(--inset); }
+
+.feature-cell--service-desk h3,
+.feature-cell--procurement h3 { font-size: clamp(26px, 3.35cqw, 38px); }
+
+.feature-cell--service-desk .feature-copy { width: calc(100% - var(--inset) * 2); }
+.feature-cell--service-desk .feature-art { top: 4%; right: 6%; bottom: auto; width: 88%; height: 57%; }
+.feature-cell--service-desk img { object-position: center; }
+
+.feature-cell--procurement .feature-copy { width: 36%; }
+.feature-cell--procurement .feature-art { right: 2%; bottom: 4%; width: 56%; height: 92%; }
+.feature-cell--procurement img { object-position: center right; }
+
+@media (max-width: 900px) {
+  .nevian-features { padding-block: 36px; }
+  .feature-shell { width: calc(100% - 56px); }
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(4, clamp(184px, 28vw, 230px));
+    grid-template-areas:
+      'desk procurement'
+      'desk support'
+      'inventory changes'
+      'knowledge security';
+    gap: 14px;
+  }
+  .feature-heading { grid-template-columns: minmax(0, 1fr) minmax(180px, .65fr); gap: 20px; }
+  .feature-heading h2 { font-size: clamp(31px, 5vw, 44px); }
+  .feature-heading p { font-size: 14px; }
+  .feature-card { --inset: 18px; border-radius: 19px; }
+  .feature-copy h3 { font-size: clamp(18px, 3vw, 24px); }
+  .feature-copy p { font-size: 13px; }
+  .feature-cell--procurement .feature-copy { top: var(--inset); bottom: auto; width: calc(53% - var(--inset)); }
+  .feature-cell--procurement .feature-art { right: 1%; bottom: 3%; width: 46%; height: 78%; }
+}
+
+@media (max-width: 600px) {
+  .feature-shell { width: calc(100% - 40px); }
+  .feature-heading { grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
+  .feature-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: 'desk' 'procurement' 'support' 'inventory' 'changes' 'knowledge' 'security';
+    grid-auto-rows: clamp(174px, 48vw, 215px);
+    gap: 11px;
+  }
+  .feature-card { --inset: 16px; border-radius: 17px; }
+  .feature-copy h3 { margin-bottom: 7px; }
+  .feature-cell--service-desk .feature-copy { top: var(--inset); bottom: auto; width: calc(53% - var(--inset)); }
+  .feature-cell--service-desk .feature-art { top: auto; right: 1%; bottom: 3%; width: 46%; height: 84%; }
+  .feature-cell--service-desk img { object-position: right bottom; }
+}

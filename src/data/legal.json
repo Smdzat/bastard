@@ -1,0 +1,193 @@
+{
+  "datenschutz": {
+    "title": "Datenschutz",
+    "source": "https://erledo.at/datenschutz.html",
+    "sourceDate": "Juli 2026",
+    "sections": [
+      {
+        "id": "verantwortlicher",
+        "title": "1. Verantwortlicher",
+        "html": "<p>Verantwortlicher im Sinne der DSGVO für die Verarbeitung personenbezogener Daten ist:</p>\n    <p><strong>Hüsein Kahraman</strong><br />\n    E-Mail: <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a><br />\n    Website: <a href=\"https://erledo.at\">erledo.at</a></p>"
+      },
+      {
+        "id": "grundsaetze",
+        "title": "2. Grundsätze der Datenverarbeitung",
+        "html": "<p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>\n    <div>\n      <strong>Unsere Grundsätze:</strong> Wir erheben nur Daten, die für den Betrieb des Dienstes erforderlich sind. Wir verkaufen keine Daten. Wir geben keine Daten an Dritte weiter, außer es ist gesetzlich vorgeschrieben.\n    </div>\n    <ul>\n      <li>Datenminimierung — wir erheben nur notwendige Daten</li>\n      <li>Zweckbindung — Daten werden nur für angegebene Zwecke verwendet</li>\n      <li>Transparenz — Sie werden über die Verarbeitung informiert</li>\n      <li>Sicherheit — technische und organisatorische Maßnahmen zum Schutz Ihrer Daten</li>\n    </ul>"
+      },
+      {
+        "id": "daten-website",
+        "title": "3. Daten beim Besuch unserer Website",
+        "html": "<h3>Server-Logfiles</h3>\n    <p>Beim Aufruf unserer Website (erledo.at) werden durch den Webserver automatisch folgende Daten gespeichert:</p>\n    <table>\n      <tr><th>Datenkategorie</th><th>Beispiel</th><th>Zweck</th></tr>\n      <tr><td>IP-Adresse</td><td>192.168.x.x (anonymisiert)</td><td>Sicherheit, Fehleranalyse</td></tr>\n      <tr><td>Browsertyp</td><td>Chrome 120 / Safari</td><td>Technische Optimierung</td></tr>\n      <tr><td>Betriebssystem</td><td>iOS 17 / Android</td><td>Technische Optimierung</td></tr>\n      <tr><td>Referrer-URL</td><td>Herkunftsseite</td><td>Statistik</td></tr>\n      <tr><td>Datum &amp; Uhrzeit</td><td>2025-04-01 12:00:00</td><td>Sicherheit</td></tr>\n    </table>\n    <p>Diese Daten werden nach spätestens 14 Tagen automatisch gelöscht. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.</p>\n    <h3>Nutzerkonten</h3>\n    <p>Bei der Registrierung und Anmeldung auf erledo.at werden folgende Daten verarbeitet:</p>\n    <ul>\n      <li>E-Mail-Adresse (zur Identifikation und für System-E-Mails wie Passwort-Reset)</li>\n      <li>Passwort — wird ausschließlich als sicherer Hash gespeichert; das Klartextpasswort ist weder für Erledo noch für Dritte einsehbar oder wiederherstellbar</li>\n      <li>Session-Daten zur Aufrechterhaltung der Anmeldung (technisch notwendig)</li>\n    </ul>\n    <h3>Cookies</h3>\n    <p>Unsere Website verwendet keine Tracking-Cookies oder Marketing-Cookies. Es werden lediglich technisch notwendige Session-Daten verwendet, die nach dem Schließen des Browsers gelöscht werden.</p>"
+      },
+      {
+        "id": "telegram",
+        "title": "4. Telegram-Integration",
+        "html": "<p>Telegram wird ergänzend zur Website für Benachrichtigungen (z.B. neue Bewerbung, Helferauswahl) sowie zur optionalen Account-Verknüpfung genutzt. Die Erstellung von Aufträgen erfolgt primär über die Website.</p>\n\n    <h3>Telegram als Plattform</h3>\n    <p>Telegram ist ein eigenständiger Dienst der Telegram FZ-LLC (Dubai, UAE). Für die Nutzung von Telegram gelten <strong>zusätzlich</strong> die Datenschutzbestimmungen von Telegram:</p>\n    <p><a href=\"https://telegram.org/privacy\">https://telegram.org/privacy</a></p>\n\n    <h3>Datenverarbeitung durch den Erledo Bot</h3>\n    <p>Wenn Sie mit dem Erledo Bot interagieren, verarbeiten wir folgende Daten:</p>\n    <table>\n      <tr><th>Datum</th><th>Herkunft</th><th>Zweck</th><th>Speicherdauer</th></tr>\n      <tr><td>Telegram User-ID</td><td>Telegram API</td><td>Nutzeridentifikation</td><td>Bis zur Löschung</td></tr>\n      <tr><td>Telegram Benutzername</td><td>Telegram API (falls gesetzt)</td><td>Kommunikation</td><td>Bis zur Löschung</td></tr>\n      <tr><td>Auftragsinhalte</td><td>Nutzereingabe</td><td>Vermittlung</td><td>60 Tage nach Abschluss</td></tr>\n      <tr><td>Chatverläufe</td><td>Telegram API</td><td>Bot-Funktionalität</td><td>30 Tage</td></tr>\n      <tr><td>Standortbereich (Wien)</td><td>Nutzereingabe</td><td>Lokale Vermittlung</td><td>Mit Auftrag</td></tr>\n    </table>\n\n    <h3>Was wir NICHT erhalten</h3>\n    <ul>\n      <li>Telefonnummer (Telegram gibt diese nicht an Bot-Betreiber weiter)</li>\n      <li>Echtnamen (nur falls der Nutzer diese freiwillig mitteilt)</li>\n      <li>Private Nachrichten außerhalb des Bots</li>\n      <li>Kontaktlisten oder andere persönliche Telegram-Daten</li>\n    </ul>\n\n    <div>\n      <strong>Wichtig:</strong> Wenn Sie persönliche Daten (z.B. Adresse, Telefonnummer) im Rahmen eines Auftrags teilen, tun Sie dies eigenverantwortlich. Wir empfehlen, sensible Daten erst nach gegenseitiger Absprache zu teilen.\n    </div>"
+      },
+      {
+        "id": "whatsapp",
+        "title": "WhatsApp Business API",
+        "html": "<p>Nutzer können optional WhatsApp-Benachrichtigungen aktivieren. Für diesen optionalen Dienst wird die Telefonnummer des Nutzers gespeichert und zur Zustellung von Auftrags-Benachrichtigungen verwendet.</p>\n    <p>Erledo nutzt dafür die WhatsApp Business API von Meta Platforms Ireland Limited (4 Grand Canal Square, Dublin 2, Irland) bzw. Meta Platforms, Inc. (USA). Die Nutzung erfolgt ausschließlich zum Versand von Auftrags-Benachrichtigungen — kein Marketing.</p>\n    <p>Datenschutzerklärung von Meta/WhatsApp: <a href=\"https://www.whatsapp.com/legal/privacy-policy\">whatsapp.com/legal/privacy-policy</a></p>\n    <div>\n      <strong>Optional:</strong> Die WhatsApp-Benachrichtigung ist freiwillig. Sie kann im Konto-Bereich jederzeit deaktiviert und die Telefonnummer gelöscht werden.\n    </div>"
+      },
+      {
+        "id": "fotos",
+        "title": "Foto-Uploads",
+        "html": "<p>Bei der Auftragserstellung können Nutzer optional Fotos hochladen, um den Auftrag zu veranschaulichen.</p>\n    <ul>\n      <li>Fotos werden auf den Servern von Erledo (Hetzner Online GmbH, Deutschland, EU) gespeichert</li>\n      <li>Speicherdauer: 60 Tage nach Abschluss des zugehörigen Auftrags, danach automatische Löschung</li>\n      <li>Fotos sind nur für Erledo-Nutzer im Rahmen des Auftrags sichtbar</li>\n    </ul>"
+      },
+      {
+        "id": "webpush",
+        "title": "Web-Push-Benachrichtigungen",
+        "html": "<p>Nutzer können optional Browser-Push-Benachrichtigungen aktivieren, um über neue Bewerbungen oder Statusänderungen informiert zu werden.</p>\n    <ul>\n      <li>Hierfür wird ein technischer Schlüssel (Push-Subscription) im Browser des Nutzers gespeichert</li>\n      <li>Diese Daten werden ausschließlich zur Zustellung von Benachrichtigungen genutzt, nicht zu Werbe- oder Analysezwecken</li>\n      <li>Die Funktion kann im Browser jederzeit deaktiviert werden</li>\n    </ul>"
+      },
+      {
+        "id": "nutzerdaten",
+        "title": "5. Welche Daten werden gespeichert?",
+        "html": "<p>In unserer Datenbank (SQLite) werden folgende Daten strukturiert gespeichert:</p>\n\n    <h3>Aufträge (Tabelle: tasks)</h3>\n    <table>\n      <tr><th>Feld</th><th>Inhalt</th></tr>\n      <tr><td>task_id</td><td>Interne ID des Auftrags</td></tr>\n      <tr><td>user_id</td><td>Telegram User-ID des Auftraggebers</td></tr>\n      <tr><td>category</td><td>Auftragstyp (z.B. transport, shopping)</td></tr>\n      <tr><td>description</td><td>Beschreibung des Auftrags</td></tr>\n      <tr><td>price</td><td>Vereinbartes Entgelt</td></tr>\n      <tr><td>status</td><td>open / assigned / done / cancelled</td></tr>\n      <tr><td>created_at</td><td>Zeitstempel der Erstellung</td></tr>\n    </table>\n\n    <h3>Interessenten (Tabelle: applicants)</h3>\n    <table>\n      <tr><th>Feld</th><th>Inhalt</th></tr>\n      <tr><td>task_id</td><td>Referenz auf Auftrag</td></tr>\n      <tr><td>helper_id</td><td>Telegram User-ID des Helfers</td></tr>\n      <tr><td>applied_at</td><td>Zeitstempel der Bewerbung</td></tr>\n    </table>\n\n    <p>Es werden keine Echtzeit-Standortdaten, keine Zahlungsdaten und keine biometrischen Daten verarbeitet.</p>"
+      },
+      {
+        "id": "zweck",
+        "title": "6. Zweck der Verarbeitung",
+        "html": "<p>Wir verarbeiten Ihre Daten ausschließlich zu folgenden Zwecken:</p>\n    <ul>\n      <li><strong>Diensterbringung:</strong> Vermittlung zwischen Auftraggebern und Helfern</li>\n      <li><strong>Kommunikation:</strong> Benachrichtigungen über den Auftragsstatus</li>\n      <li><strong>Sicherheit:</strong> Verhinderung von Missbrauch und illegalen Aktivitäten</li>\n      <li><strong>Verbesserung:</strong> Analyse des Nutzerverhaltens zur Optimierung (anonymisiert)</li>\n      <li><strong>Rechtliche Pflichten:</strong> Erfüllung gesetzlicher Aufbewahrungspflichten</li>\n    </ul>\n    <p>Eine Nutzung der Daten zu Werbezwecken oder für Profiling findet nicht statt.</p>"
+      },
+      {
+        "id": "rechtsgrundlage",
+        "title": "7. Rechtsgrundlage",
+        "html": "<p>Die Verarbeitung Ihrer personenbezogenen Daten erfolgt auf Basis folgender Rechtsgrundlagen der DSGVO:</p>\n    <table>\n      <tr><th>Verarbeitung</th><th>Rechtsgrundlage</th><th>DSGVO Art.</th></tr>\n      <tr><td>Nutzerkonto / Bot-Nutzung</td><td>Vertragserfüllung</td><td>Art. 6 Abs. 1 lit. b</td></tr>\n      <tr><td>Auftragsvermittlung</td><td>Vertragserfüllung</td><td>Art. 6 Abs. 1 lit. b</td></tr>\n      <tr><td>Server-Logfiles</td><td>Berechtigtes Interesse</td><td>Art. 6 Abs. 1 lit. f</td></tr>\n      <tr><td>Sicherheitsmaßnahmen</td><td>Berechtigtes Interesse</td><td>Art. 6 Abs. 1 lit. f</td></tr>\n      <tr><td>Gesetzliche Aufbewahrung</td><td>Rechtliche Verpflichtung</td><td>Art. 6 Abs. 1 lit. c</td></tr>\n    </table>"
+      },
+      {
+        "id": "weitergabe",
+        "title": "8. Keine Weitergabe an Dritte",
+        "html": "<div>\n      <strong>Grundsatz:</strong> Wir verkaufen, vermieten oder teilen Ihre personenbezogenen Daten nicht mit Dritten zu kommerziellen Zwecken.\n    </div>\n    <p>Eine Übermittlung Ihrer Daten an Dritte findet nur in folgenden Ausnahmefällen statt:</p>\n    <ul>\n      <li><strong>Gesetzliche Verpflichtung:</strong> Bei behördlichen Anfragen oder gerichtlichen Anordnungen</li>\n      <li><strong>Telegram API:</strong> Technisch bedingte Datenübermittlung für Bot-Funktionalität (Telegram agiert als Auftragsverarbeiter)</li>\n      <li><strong>Hosting:</strong> Der Webserver-Betreiber (als Auftragsverarbeiter gemäß Art. 28 DSGVO)</li>\n    </ul>\n    <h3>Keine Weitergabe an:</h3>\n    <ul>\n      <li>Werbetreibende oder Marketingplattformen</li>\n      <li>Analyse-Unternehmen oder Datenhändler</li>\n      <li>Andere Nutzer (außer für die Vermittlung notwendige Mindestinformationen)</li>\n      <li>Unternehmen außerhalb der EU/EWR ohne angemessenes Schutzniveau</li>\n    </ul>"
+      },
+      {
+        "id": "speicherung",
+        "title": "9. Speicherdauer",
+        "html": "<table>\n      <tr><th>Datenkategorie</th><th>Speicherdauer</th><th>Begründung</th></tr>\n      <tr><td>Aktive Aufträge</td><td>Bis zur Erledigung</td><td>Vertragserfüllung</td></tr>\n      <tr><td>Abgeschlossene Aufträge</td><td>60 Tage nach Abschluss</td><td>Nachfragen / Support</td></tr>\n      <tr><td>Stornierte Aufträge</td><td>30 Tage</td><td>Sicherheit</td></tr>\n      <tr><td>Server-Logfiles</td><td>14 Tage</td><td>Sicherheitsanalyse</td></tr>\n      <tr><td>Bot-Chatverläufe</td><td>30 Tage</td><td>Technisch bedingt</td></tr>\n      <tr><td>Nutzerkonto (Telegram ID)</td><td>Bis zur Löschungsanfrage</td><td>Service-Kontinuität</td></tr>\n    </table>\n    <p>Nach Ablauf der Speicherdauer werden Daten automatisch gelöscht oder anonymisiert.</p>"
+      },
+      {
+        "id": "rechte",
+        "title": "10. Ihre Rechte (DSGVO)",
+        "html": "<p>Als betroffene Person haben Sie folgende Rechte gemäß DSGVO:</p>\n    <div>\n      <div>\n        <div>👁️</div>\n        <div>Auskunft (Art. 15)</div>\n        <div>Sie können jederzeit Auskunft über Ihre gespeicherten Daten verlangen</div>\n      </div>\n      <div>\n        <div>✏️</div>\n        <div>Berichtigung (Art. 16)</div>\n        <div>Korrektur unrichtiger oder unvollständiger Daten</div>\n      </div>\n      <div>\n        <div>🗑️</div>\n        <div>Löschung (Art. 17)</div>\n        <div>Löschung Ihrer Daten, sofern keine gesetzliche Pflicht besteht</div>\n      </div>\n      <div>\n        <div>⏸️</div>\n        <div>Einschränkung (Art. 18)</div>\n        <div>Einschränkung der Verarbeitung unter bestimmten Bedingungen</div>\n      </div>\n      <div>\n        <div>📤</div>\n        <div>Portabilität (Art. 20)</div>\n        <div>Übertragung Ihrer Daten in maschinenlesbarem Format</div>\n      </div>\n      <div>\n        <div>🙅</div>\n        <div>Widerspruch (Art. 21)</div>\n        <div>Widerspruch gegen die Verarbeitung Ihrer Daten</div>\n      </div>\n    </div>\n    <p>Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a></p>\n    <p>Sie haben außerdem das Recht, eine Beschwerde bei der österreichischen Datenschutzbehörde einzulegen:</p>\n    <p><strong>Datenschutzbehörde</strong><br />\n    Barichgasse 40–42, 1030 Wien<br />\n    <a href=\"https://www.dsb.gv.at\">www.dsb.gv.at</a></p>"
+      },
+      {
+        "id": "drittdienste",
+        "title": "11. Drittdienste",
+        "html": "<h3>Google Fonts</h3>\n    <p>Diese Website lädt Schriftarten von Google Fonts (Google LLC, USA). Dabei wird Ihre IP-Adresse an Google übermittelt. Google hat sich zur Einhaltung der DSGVO verpflichtet (EU-US Data Privacy Framework). Datenschutzerklärung: <a href=\"https://policies.google.com/privacy\">policies.google.com/privacy</a></p>\n    <h3>Telegram Messenger</h3>\n    <p>Telegram wird ergänzend für Benachrichtigungen und Account-Verknüpfung genutzt. Für Telegram gilt deren eigene Datenschutzerklärung: <a href=\"https://telegram.org/privacy\">telegram.org/privacy</a></p>\n    <h3>WhatsApp Business API</h3>\n    <p>Für optionale WhatsApp-Benachrichtigungen wird die WhatsApp Business API von Meta genutzt. Siehe den ausführlichen Abschnitt &quot;WhatsApp Business API&quot; weiter oben.</p>\n    <h3>Hosting</h3>\n    <p>Die Website wird über Hetzner Online GmbH (Deutschland) gehostet. Der Server befindet sich in der EU (Deutschland).</p>\n    <h3>E-Mail-Versand (Resend)</h3>\n    <p>Für den Versand von System-E-Mails (z.B. Passwort-Reset) nutzen wir den Dienst Resend (Resend Inc., USA). Datenschutzerklärung: <a href=\"https://resend.com/legal/privacy-policy\">resend.com/legal/privacy-policy</a></p>"
+      },
+      {
+        "id": "kontakt",
+        "title": "12. Kontakt & Datenschutzbeauftragter",
+        "html": "<p>Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte wenden Sie sich bitte an:</p>\n    <p><strong>Datenschutzkontakt:</strong><br />\n    <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a></p>\n    <p>Wir bearbeiten Ihre Anfrage innerhalb von 30 Tagen (gemäß Art. 12 Abs. 3 DSGVO). Eine Bestellung eines gesonderten Datenschutzbeauftragten ist aufgrund der Unternehmensgröße nicht gesetzlich verpflichtend.</p>\n    <p>Diese Datenschutzerklärung kann jederzeit angepasst werden. Die aktuelle Version ist stets auf <a href=\"https://erledo.at/datenschutz.html\">erledo.at/datenschutz.html</a> abrufbar. Stand: Juli 2026</p>"
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "source": "https://erledo.at/impressum.html",
+    "sourceDate": "Juli 2026",
+    "sections": [
+      {
+        "id": "abschnitt-1",
+        "title": "Betreiber & Medieninhaber",
+        "html": "<div>\n      Name\n      Hüseyin Kahraman\n    </div>\n    <div>\n      E-Mail\n      <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a>\n    </div>\n    <div>\n      Website\n      <a href=\"https://erledo.at\">erledo.at</a>\n    </div>\n    <div>\n      Telegram Bot\n      <a href=\"https://t.me/erledo_bot\">@erledo_bot</a>\n    </div>"
+      },
+      {
+        "id": "abschnitt-2",
+        "title": "Unternehmensangaben",
+        "html": "<div>\n      Tätigkeitsbereich\n      Digitale Vermittlungsplattform für Aufträge und Hilfeleistungen\n    </div>"
+      },
+      {
+        "id": "abschnitt-3",
+        "title": "Plattform & Dienst",
+        "html": "<p>Erledo ist eine Plattform zur Vermittlung von Aufträgen und Hilfeleistungen in Wien. Die Plattform ist über die Website (erledo.at) sowie ergänzend über Telegram und WhatsApp erreichbar.</p>\n    <p>Erledo agiert dabei ausschließlich als Vermittler und ist nicht Vertragspartei der zwischen Nutzern geschlossenen Vereinbarungen.</p>\n    <div>\n      Plattform\n      Website (erledo.at), Telegram, WhatsApp\n    </div>\n    <div>\n      Bot-Name\n      @erledo_bot (Telegram; Auftragserstellen primär über die Website)\n    </div>\n    <div>\n      Einsatzgebiet\n      Wien, Österreich\n    </div>"
+      },
+      {
+        "id": "abschnitt-4",
+        "title": "Haftung für Inhalte",
+        "html": "<p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>\n    <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich.</p>"
+      },
+      {
+        "id": "abschnitt-5",
+        "title": "Haftung für Links",
+        "html": "<p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>\n    <p>Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar.</p>"
+      },
+      {
+        "id": "abschnitt-6",
+        "title": "Urheberrecht",
+        "html": "<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem österreichischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors.</p>\n    <p>Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>"
+      },
+      {
+        "id": "abschnitt-7",
+        "title": "Online-Streitbeilegung",
+        "html": "<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:</p>\n    <p><a href=\"https://ec.europa.eu/consumers/odr\">https://ec.europa.eu/consumers/odr</a></p>\n    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>\n    <div>\n      Anwendbares Recht\n      Österreichisches Recht\n    </div>\n    <div>\n      Gerichtsstand\n      Wien, Österreich\n    </div>"
+      }
+    ]
+  },
+  "nutzungsbedingungen": {
+    "title": "Nutzungsbedingungen",
+    "source": "https://erledo.at/nutzungsbedingungen.html",
+    "sourceDate": "Juli 2026",
+    "sections": [
+      {
+        "id": "anbieter",
+        "title": "1. Anbieter & Dienst",
+        "html": "<p>Erledo (erledo.at) ist eine Plattform zur Vermittlung von Aufträgen und Hilfeleistungen in Wien. Der Dienst wird primär über die Website bereitgestellt; ergänzend sind Telegram und WhatsApp als Benachrichtigungskanäle verfügbar. Betrieben von <strong>Hüseyin Kahraman</strong> (Österreich).</p>\n    <div>\n      <strong>Was ist Erledo?</strong> Ein lokaler Marktplatz für Aufgaben, Dienstleistungen und Unterstützung im Alltag. Nutzer können Aufträge veröffentlichen und mit interessierten Personen in Kontakt treten. Erledo ist kein Arbeitsvermittler, keine Arbeitskräfteüberlassungsfirma und kein Gewerbebetrieb.\n    </div>\n    <div>\n      <p><strong>Primärer Zugang:</strong> Website (erledo.at)</p>\n      <p><strong>Ergänzende Kanäle:</strong> Telegram (@erledo_bot), WhatsApp</p>\n      <p><strong>Kontakt:</strong> <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a></p>\n      <p><strong>Einsatzgebiet:</strong> Wien, Österreich</p>\n    </div>"
+      },
+      {
+        "id": "nutzung",
+        "title": "2. Voraussetzungen zur Nutzung",
+        "html": "<h3>Altersbeschränkung</h3>\n    <p>Die Nutzung von Erledo ist nur Personen gestattet, die:</p>\n    <ul>\n      <li>Mindestens 18 Jahre alt sind, oder</li>\n      <li>zwischen 16 und 18 Jahren mit Zustimmung eines Erziehungsberechtigten</li>\n      <li>In Österreich (bevorzugt Wien) ansässig sind</li>\n    </ul>\n    <h3>Registrierung</h3>\n    <p>Zur Nutzung von Erledo ist eine Registrierung mit E-Mail-Adresse und Passwort auf erledo.at erforderlich. Eine optionale Verknüpfung mit Telegram oder WhatsApp ist möglich, um Benachrichtigungen zu erhalten.</p>\n    <div>\n      ⚠️\n      Mit der Registrierung und der Nutzung der Plattform bestätigen Sie, dass Sie diese Nutzungsbedingungen gelesen und akzeptiert haben.\n    </div>"
+      },
+      {
+        "id": "auftraggeber",
+        "title": "3. Pflichten der Auftraggeber",
+        "html": "<p>Wenn Sie einen Auftrag erstellen, verpflichten Sie sich zu folgenden Bedingungen:</p>\n    <ul>\n      <li>Den Auftrag vollständig und wahrheitsgemäß zu beschreiben</li>\n      <li>Einen fairen und realistischen Preis anzugeben</li>\n      <li>Nur legale Aufgaben anzubieten (siehe § 5)</li>\n      <li>Den vereinbarten Preis nach erfolgreicher Erledigung zu bezahlen</li>\n      <li>Den Helfer respektvoll zu behandeln</li>\n      <li>Bei Vertragsschluss erreichbar zu sein</li>\n      <li>Stornierungen rechtzeitig mitzuteilen</li>\n    </ul>\n    <h3>Zahlungsabwicklung</h3>\n    <p>Die Zahlung erfolgt direkt zwischen Auftraggeber und Helfer. Erledo ist kein Zahlungsdienstleister und ist an der Zahlung nicht beteiligt. Es wird keine Provision einbehalten (Erledo ist derzeit kostenlos).</p>"
+      },
+      {
+        "id": "helfer",
+        "title": "4. Pflichten der Helfer",
+        "html": "<p>Wenn Sie sich als Helfer für einen Auftrag bewerben, verpflichten Sie sich:</p>\n    <ul>\n      <li>Den Auftrag gewissenhaft und zur Zufriedenheit des Auftraggebers zu erledigen</li>\n      <li>Pünktlich und zuverlässig zu sein</li>\n      <li>Den Auftraggeber bei Problemen oder Verspätungen zu informieren</li>\n      <li>Nur Aufträge anzunehmen, für die Sie geeignet sind</li>\n      <li>Die persönlichen Daten des Auftraggebers vertraulich zu behandeln</li>\n      <li>Keine Bewerbungen ohne ernste Absicht abzugeben</li>\n    </ul>\n    <h3>Steuerliche Hinweise</h3>\n    <div>\n      ⚠️\n      <strong>Achtung:</strong> Einnahmen aus gelegentlicher Hilfeleistung können steuerlich relevant sein. Helfer sind selbst für die Einhaltung steuerlicher und sozialversicherungsrechtlicher Pflichten verantwortlich. Bei regelmäßiger Tätigkeit empfehlen wir die Beratung durch einen Steuerberater.\n    </div>"
+      },
+      {
+        "id": "erlaubte-auftraege",
+        "title": "5. Erlaubte Auftragstypen",
+        "html": "<p>Erledo ist eine Plattform für alltägliche Aufgaben und Hilfeleistungen. Folgende Auftragstypen sind erlaubt:</p>\n    <div>\n      <div>\n        <div>🛒</div>\n        <div>Einkauf</div>\n        <div>Lebensmittel, Apotheke</div>\n      </div>\n      <div>\n        <div>🚗</div>\n        <div>Transport</div>\n        <div>Möbel, Umzug</div>\n      </div>\n      <div>\n        <div>🔧</div>\n        <div>Handwerk</div>\n        <div>Aufbau, Reparatur</div>\n      </div>\n      <div>\n        <div>🎿</div>\n        <div>Ausleihen</div>\n        <div>Geräte, Kleidung</div>\n      </div>\n      <div>\n        <div>🐕</div>\n        <div>Tierpflege</div>\n        <div>Gassi gehen, Betreuung</div>\n      </div>\n      <div>\n        <div>💡</div>\n        <div>Sonstiges</div>\n        <div>Alltägliche Hilfe</div>\n      </div>\n    </div>\n    <p>Die Aufgaben müssen einfache Gelegenheitsarbeiten sein, die keine gewerbliche Lizenz erfordern. Bei Unsicherheit bitte vorher anfragen.</p>"
+      },
+      {
+        "id": "verboten",
+        "title": "6. Verbotene Inhalte & Aufträge",
+        "html": "<p>Folgende Aufträge und Verhaltensweisen sind auf Erledo <strong>ausdrücklich verboten</strong>:</p>\n\n    <h3>Illegale Tätigkeiten</h3>\n    <ul>\n      <li>Aufträge, die gegen österreichisches oder EU-Recht verstoßen</li>\n      <li>Kauf, Verkauf oder Transport illegaler Substanzen</li>\n      <li>Hehlerei oder Handel mit gestohlenen Waren</li>\n      <li>Urkundenfälschung oder Betrug</li>\n      <li>Aufträge, die der Steuerhinterziehung dienen</li>\n    </ul>\n\n    <h3>Gefährliche Tätigkeiten</h3>\n    <ul>\n      <li>Elektrische Arbeiten ohne Befugnis</li>\n      <li>Gasinstallationen ohne Zertifizierung</li>\n      <li>Aufträge mit erheblichem Verletzungsrisiko</li>\n    </ul>\n\n    <h3>Unangemessene Inhalte</h3>\n    <ul>\n      <li>Sexuelle Dienstleistungen oder Prostitution</li>\n      <li>Diskriminierende, rassistische oder beleidigende Aufträge</li>\n      <li>Stalking, Überwachung oder Belästigung anderer Personen</li>\n      <li>Spam oder Werbung für externe Dienste</li>\n    </ul>\n\n    <h3>Gewerbliche Nutzung</h3>\n    <ul>\n      <li>Kommerzielle Werbung für bestehende Unternehmen</li>\n      <li>Massenausschreibungen gewerblicher Natur</li>\n    </ul>\n\n    <div>\n      🚨\n      <strong>Folgen von Verstößen:</strong> Bei Verstoß gegen diese Regeln behalten wir uns vor, den Account zu sperren, den Auftrag zu löschen und bei schweren Verstößen Anzeige zu erstatten. Nutzer sind für alle Schäden haftbar, die durch verbotene Aufträge entstehen.\n    </div>"
+      },
+      {
+        "id": "haftung",
+        "title": "7. Haftungsausschluss",
+        "html": "<h3>Erledo als Plattform</h3>\n    <p>Erledo ist ausschließlich eine Vermittlungsplattform. Wir sind kein Vertragspartner der zwischen Nutzern geschlossenen Vereinbarungen und haften nicht für:</p>\n    <ul>\n      <li>Die Qualität oder Ausführung von Aufträgen durch Helfer</li>\n      <li>Schäden, die bei der Durchführung eines Auftrags entstehen</li>\n      <li>Nichterfüllung von Aufträgen durch Helfer oder Auftraggeber</li>\n      <li>Verluste durch Diebstahl, Beschädigung oder sonstigen Schaden</li>\n      <li>Persönliche Verletzungen im Zusammenhang mit einem Auftrag</li>\n      <li>Zahlungsausfälle zwischen Nutzern</li>\n      <li>Falsche Angaben der Nutzer in Profilen oder Aufträgen</li>\n    </ul>\n\n    <h3>Technische Verfügbarkeit</h3>\n    <p>Erledo übernimmt keine Garantie für die ununterbrochene Verfügbarkeit des Dienstes. Ausfälle durch Telegram, Serverprobleme oder Wartungsarbeiten berechtigen nicht zu Schadensersatz.</p>\n\n    <h3>Haftungsbeschränkung</h3>\n    <p>Die Haftung von Erledo ist, soweit gesetzlich zulässig, auf Vorsatz und grobe Fahrlässigkeit beschränkt. Die Haftung für einfache Fahrlässigkeit, mittelbare Schäden, Folgeschäden und entgangenen Gewinn ist ausgeschlossen.</p>\n\n    <div>\n      <strong>Empfehlung:</strong> Für Aufträge mit höherem Wert oder Risiko empfehlen wir, eine schriftliche Vereinbarung zu treffen und ggf. eine private Haftpflichtversicherung abzuschließen.\n    </div>"
+      },
+      {
+        "id": "vermittler",
+        "title": "8. Erledo als Vermittler",
+        "html": "<p>Erledo agiert ausschließlich als technische Plattform zur Vermittlung zwischen Auftraggebern und Helfern. Folgende Punkte sind für alle Nutzer verbindlich zu verstehen:</p>\n    <ul>\n      <li>Erledo ist kein Arbeitgeber der Helfer</li>\n      <li>Helfer sind keine Angestellten von Erledo</li>\n      <li>Erledo ist nicht Vertragspartei der vereinbarten Aufträge</li>\n      <li>Verträge kommen direkt zwischen Auftraggeber und Helfer zustande</li>\n      <li>Streitigkeiten sind direkt zwischen den Parteien zu klären</li>\n    </ul>\n    <p>Erledo behält sich vor, bei schwerwiegenden Beschwerden zu vermitteln, ist dazu aber nicht verpflichtet.</p>"
+      },
+      {
+        "id": "verhalten",
+        "title": "9. Verhaltenskodex",
+        "html": "<p>Alle Nutzer verpflichten sich zu folgendem Verhalten:</p>\n    <ul>\n      <li>Respektvoller und höflicher Umgang miteinander</li>\n      <li>Ehrliche und vollständige Angaben in Aufträgen und Profilen</li>\n      <li>Pünktlichkeit und Zuverlässigkeit bei vereinbarten Terminen</li>\n      <li>Faire Preisgestaltung und -bezahlung</li>\n      <li>Konstruktives Feedback und Bewertungen</li>\n    </ul>\n    <h3>Zero-Tolerance-Policy</h3>\n    <div>\n      🚫\n      Belästigung, Diskriminierung, Drohungen oder Einschüchterungen führen zur sofortigen und dauerhaften Sperrung des Accounts. Bei strafrechtlich relevanten Vorfällen wird Anzeige erstattet.\n    </div>"
+      },
+      {
+        "id": "sperrung",
+        "title": "10. Sperrung & Kündigung",
+        "html": "<h3>Sperrung durch Erledo</h3>\n    <p>Erledo behält sich das Recht vor, Nutzer ohne Vorwarnung zu sperren bei:</p>\n    <ul>\n      <li>Verstößen gegen diese Nutzungsbedingungen</li>\n      <li>Missbrauch der Plattform</li>\n      <li>Gefährdung anderer Nutzer</li>\n      <li>Illegalen Aktivitäten</li>\n      <li>Mehrfachen negativen Bewertungen oder Beschwerden</li>\n    </ul>\n    <h3>Kündigung durch den Nutzer</h3>\n    <p>Nutzer können die Nutzung jederzeit einstellen. Eine Löschung der gespeicherten Daten kann per E-Mail an <a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a> beantragt werden.</p>\n    <h3>Folgen der Sperrung</h3>\n    <ul>\n      <li>Keine Möglichkeit mehr, Aufträge zu erstellen oder anzunehmen</li>\n      <li>Laufende Aufträge werden storniert (Auftraggeber informiert)</li>\n      <li>Bereits bezahlte Beträge werden nicht erstattet</li>\n    </ul>"
+      },
+      {
+        "id": "aenderungen",
+        "title": "11. Änderungen der Nutzungsbedingungen",
+        "html": "<p>Erledo behält sich vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen werden:</p>\n    <ul>\n      <li>Auf der Website (erledo.at/nutzungsbedingungen.html) veröffentlicht</li>\n      <li>Mit dem Datum der letzten Änderung gekennzeichnet</li>\n      <li>Bei wesentlichen Änderungen per Telegram-Bot-Nachricht oder per E-Mail kommuniziert</li>\n    </ul>\n    <p>Die fortgesetzte Nutzung des Dienstes nach Änderungen gilt als Zustimmung zu den neuen Bedingungen. Wenn Sie den Änderungen nicht zustimmen, müssen Sie die Nutzung einstellen.</p>"
+      },
+      {
+        "id": "recht",
+        "title": "12. Anwendbares Recht & Gerichtsstand",
+        "html": "<p>Für diese Nutzungsbedingungen und alle Streitigkeiten im Zusammenhang mit der Nutzung von Erledo gilt:</p>\n    <ul>\n      <li><strong>Anwendbares Recht:</strong> Österreichisches Recht unter Ausschluss des UN-Kaufrechts (CISG)</li>\n      <li><strong>Gerichtsstand:</strong> Wien, Österreich</li>\n      <li><strong>Sprache:</strong> Deutsch (maßgebliche Sprache dieser Bedingungen)</li>\n    </ul>\n    <p>Verbraucher mit Wohnsitz in der EU können auch die Gerichte ihres Wohnsitzlands anrufen.</p>\n    <p>Sollten einzelne Bestimmungen dieser Nutzungsbedingungen unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</p>\n\n    <div>\n      Bei Fragen zu diesen Nutzungsbedingungen: <strong><a href=\"mailto:erledo.app@gmail.com\">erledo.app@gmail.com</a></strong>\n    </div>\n\n    <p>Stand: Juli 2026 · Erledo, Wien, Österreich</p>"
+      }
+    ]
+  }
+}

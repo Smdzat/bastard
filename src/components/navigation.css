@@ -1,0 +1,66 @@
+.navigation-spacer { height: 88px; background: var(--site-background); }
+
+.header-shell { position: fixed; top: 0; inset-inline: 0; z-index: 40; display: flex; justify-content: center; pointer-events: none; }
+.floating-nav {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: calc(100% - clamp(24px, 4.5vw, 72px) * 2);
+  max-width: 1120px;
+  height: 68px;
+  padding: 9px 10px 9px 30px;
+  border: 1px solid var(--site-line);
+  border-radius: 0;
+  background: #ffffffcc;
+  backdrop-filter: blur(18px) saturate(1.15);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  box-shadow: 0 4px 20px -8px #00000014, inset 0 1px 0 #fff;
+  font-family: 'Inter Variable', Arial, Helvetica, sans-serif;
+}
+.logo-link { display: inline-flex; align-items: center; padding-block: 8px; flex-shrink: 0; }
+.nav-actions { display: flex; align-items: center; gap: 12px; }
+.nav-contact { min-height: 40px; padding-inline: 10px; font-size: 12px; font-weight: 600; color: var(--site-dim); }
+.nav-contact:hover { color: var(--site-text); }
+.nav-progress-button { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--site-line); border-radius: 50%; color: var(--site-text); background: var(--site-panel); }
+.nav-progress-button .icon { width: 20px; height: 20px; }
+.nav-progress-button:hover { background: #e6f0e6; border-color: #cddfce; }
+.nav-contact-dialog { position: fixed; inset: 0; width: min(460px, calc(100% - 36px)); max-height: calc(100dvh - 40px); padding: 0; margin: auto; border: 1px solid var(--site-line); border-radius: 23px; background: #fff; color: var(--site-text); font-family: 'Inter Variable', Arial, sans-serif; }
+.nav-contact-content { position: relative; padding: 42px 30px 30px; }
+.nav-contact-close { position: absolute; display: grid; place-items: center; width: 32px; height: 32px; right: 12px; top: 12px; border-radius: 50%; background: var(--site-panel); }
+.nav-contact-close .icon { width: 16px; height: 16px; }
+.nav-contact-content h2 { margin: 0; font-size: 32px; font-weight: 600; letter-spacing: -.05em; line-height: 1.1; }
+.nav-contact-content > p:not(.section-label) { color: var(--site-dim); font-size: 14px; line-height: 1.7; margin: 18px 0 26px; }
+.nav-contact-content > a { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--site-accent); }
+.nav-contact-content > a .icon { width: 15px; height: 15px; }
+.nav-cta.action-link { min-height: 44px; padding: 5px 5px 5px 18px; gap: 17px; font-family: inherit; font-size: 11px; font-weight: 550; }
+.nav-cta.action-link { background: var(--site-button); color: var(--site-button-text); box-shadow: none; }
+.nav-cta.action-link:hover { background: var(--site-button-hover); }
+.nav-cta .action-arrow { background: var(--site-button-text); color: var(--site-button); }
+.nav-cta .action-arrow { width: 32px; height: 32px; }
+.nav-cta .action-arrow .icon { width: 16px; height: 16px; }
+@media (max-width: 960px) {
+  .navigation-spacer { height: 82px; }
+  .floating-nav { width: calc(100% - 40px); height: 64px; padding: 8px 10px 8px 24px; }
+}
+@media (max-width: 480px) {
+  .navigation-spacer { height: 76px; }
+  .floating-nav { width: calc(100% - 28px); height: 60px; padding-left: 21px; gap: 12px; }
+  .floating-nav .wordmark { width: 96px; }
+  .nav-cta.action-link { min-height: 38px; padding: 4px 4px 4px 13px; gap: 10px; font-size: 10px; }
+  .nav-cta .action-arrow { width: 28px; height: 28px; }
+  .nav-actions { gap: 5px; }
+  .nav-contact { min-height: 38px; padding-inline: 5px; font-size: 11px; }
+  .nav-progress-button { width: 34px; height: 34px; }
+  .floating-nav { padding-left: 15px; gap: 8px; }
+  .floating-nav .wordmark { width: 86px; }
+  .nav-cta.action-link { padding-left: 10px; gap: 6px; }
+}
+@media (max-width: 360px) {
+  .floating-nav { padding-left: 14px; gap: 8px; }
+  .floating-nav .wordmark { width: 75px; }
+  .nav-cta.action-link { padding-left: 9px; gap: 6px; }
+  .nav-cta .action-arrow { display: none; }
+}
+@media (prefers-reduced-transparency: reduce) { .floating-nav { background: var(--site-panel); backdrop-filter: none; -webkit-backdrop-filter: none; } }

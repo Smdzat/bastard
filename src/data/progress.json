@@ -1,0 +1,668 @@
+{
+  "updatedAt": "2026-11-17T21:32:22.822Z",
+  "start": "2025-11-17",
+  "end": "2026-11-17",
+  "daily": {
+    "2026-11-11": 1,
+    "2026-11-10": 27,
+    "2026-10-07": 3,
+    "2026-09-24": 1,
+    "2026-09-23": 1,
+    "2026-09-21": 1,
+    "2026-09-20": 1,
+    "2026-09-08": 1,
+    "2026-09-07": 1,
+    "2026-09-06": 8,
+    "2026-09-05": 3,
+    "2026-09-04": 3,
+    "2026-09-03": 2,
+    "2026-09-02": 3,
+    "2026-09-01": 10,
+    "2026-08-31": 3,
+    "2026-08-30": 19,
+    "2026-08-29": 14,
+    "2026-08-28": 2,
+    "2026-08-24": 1,
+    "2026-08-19": 1,
+    "2026-08-18": 1,
+    "2026-08-14": 2,
+    "2026-08-13": 2,
+    "2026-08-11": 5,
+    "2026-08-10": 2,
+    "2026-08-05": 2,
+    "2026-08-03": 1,
+    "2026-08-02": 1,
+    "2026-08-01": 1,
+    "2026-07-31": 1,
+    "2026-07-07": 1,
+    "2026-07-06": 2,
+    "2026-06-27": 2,
+    "2026-06-26": 3,
+    "2026-06-25": 3,
+    "2026-06-22": 1,
+    "2026-06-09": 1,
+    "2026-06-07": 1,
+    "2026-06-06": 1,
+    "2026-06-05": 2,
+    "2026-06-04": 6,
+    "2026-06-01": 1,
+    "2026-05-30": 2,
+    "2026-05-28": 1
+  },
+  "latestCommitAt": "2026-11-11T23:38:09+01:00",
+  "commitLimit": 30,
+  "activities": [
+    {
+      "type": "push",
+      "hash": "07afdcf",
+      "at": "2026-11-11T22:38:14Z",
+      "author": "Artin",
+      "count": 5,
+      "title": "Published 5 commits",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "07afdcf",
+          "message": "Interactive terminal, AI planning and ticket notifications"
+        },
+        {
+          "hash": "9b3c389",
+          "message": "Company filters for tickets and devices"
+        },
+        {
+          "hash": "8d7cb23",
+          "message": "Ticket lifecycle and company assignment improvements"
+        },
+        {
+          "hash": "3326bb6",
+          "message": "Deployment checks for running multiple instances"
+        },
+        {
+          "hash": "b9363c6",
+          "message": "Restart recovery and session continuity"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "07afdcf",
+      "at": "2026-11-11T23:38:09+01:00",
+      "author": "Artin",
+      "title": "Interactive terminal, AI planning and ticket notifications",
+      "description": "Improved the device terminal experience, expanded AI planning and added ticket notifications. Updated the related interface and verification checks.",
+      "filesChanged": 52,
+      "added": 4117,
+      "removed": 444,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "9b3c389",
+      "at": "2026-11-10T23:02:36+01:00",
+      "author": "Artin",
+      "title": "Company filters for tickets and devices",
+      "description": "Added company filters to ticket and device views. Improved how company information appears on tickets and checked the updated console workflows.",
+      "filesChanged": 11,
+      "added": 309,
+      "removed": 30,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "8d7cb23",
+      "at": "2026-11-10T23:02:36+01:00",
+      "author": "Artin",
+      "title": "Ticket lifecycle and company assignment improvements",
+      "description": "Improved tracking of ticket responses, resolutions and reopenings. Unified ticket categories and refined company assignment and filtering.",
+      "filesChanged": 20,
+      "added": 1130,
+      "removed": 31,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "3326bb6",
+      "at": "2026-11-10T22:22:52+01:00",
+      "author": "Artin",
+      "title": "Deployment checks for running multiple instances",
+      "description": "Expanded deployment options for multiple application instances and updated the corresponding acceptance checks.",
+      "filesChanged": 5,
+      "added": 120,
+      "removed": 14,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "b9363c6",
+      "at": "2026-11-10T22:22:52+01:00",
+      "author": "Artin",
+      "title": "Restart recovery and session continuity",
+      "description": "Improved recovery after application restarts and coordination between running instances. Added checks for interrupted operations and session continuity.",
+      "filesChanged": 20,
+      "added": 1740,
+      "removed": 239,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "270e0b5",
+      "at": "2026-11-10T20:41:35Z",
+      "author": "Artin",
+      "count": 1,
+      "title": "Published 1 commit",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "270e0b5",
+          "message": "Deployment scripts prepared for execution"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "270e0b5",
+      "at": "2026-11-10T21:41:34+01:00",
+      "author": "Artin",
+      "title": "Deployment scripts prepared for execution",
+      "description": "Adjusted deployment script permissions so installation and maintenance tasks can run as intended.",
+      "filesChanged": 3,
+      "added": 0,
+      "removed": 0,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "2e9b985",
+      "at": "2026-11-10T20:39:09Z",
+      "author": "Artin",
+      "count": 1,
+      "title": "Published 1 commit",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "2e9b985",
+          "message": "Build pipeline configuration corrected"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "2e9b985",
+      "at": "2026-11-10T21:39:07+01:00",
+      "author": "Artin",
+      "title": "Build pipeline configuration corrected",
+      "description": "Corrected a configuration formatting issue that prevented an automated build check from running.",
+      "filesChanged": 1,
+      "added": 2,
+      "removed": 1,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "4cef247",
+      "at": "2026-11-10T20:37:25Z",
+      "author": "Artin",
+      "count": 4,
+      "title": "Published 4 commits",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "4cef247",
+          "message": "Container deployment and backup improvements"
+        },
+        {
+          "hash": "6de5f38",
+          "message": "Environment diagnostics added"
+        },
+        {
+          "hash": "46bed02",
+          "message": "Service health and startup improvements"
+        },
+        {
+          "hash": "e306d67",
+          "message": "Release acceptance checklist updated"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "4cef247",
+      "at": "2026-11-10T21:37:23+01:00",
+      "author": "Artin",
+      "title": "Container deployment and backup improvements",
+      "description": "Added a container-based deployment setup, backup and restore tooling, and deployment documentation. Extended automated deployment checks.",
+      "filesChanged": 14,
+      "added": 769,
+      "removed": 144,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "6de5f38",
+      "at": "2026-11-10T21:37:19+01:00",
+      "author": "Artin",
+      "title": "Environment diagnostics added",
+      "description": "Added an environment diagnostics tool to help check service readiness and configuration. Included verification for both successful and unsuccessful checks.",
+      "filesChanged": 5,
+      "added": 513,
+      "removed": 66,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "46bed02",
+      "at": "2026-11-10T21:37:19+01:00",
+      "author": "Artin",
+      "title": "Service health and startup improvements",
+      "description": "Added service health checks and structured operational logging. Improved startup, shutdown and initial setup behavior.",
+      "filesChanged": 9,
+      "added": 615,
+      "removed": 53,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "e306d67",
+      "at": "2026-11-10T21:37:19+01:00",
+      "author": "Artin",
+      "title": "Release acceptance checklist updated",
+      "description": "Updated the manual release checklist with checks for completed implementation milestones.",
+      "filesChanged": 1,
+      "added": 103,
+      "removed": 0,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "0dab266",
+      "at": "2026-11-10T20:02:14Z",
+      "author": "Artin",
+      "count": 3,
+      "title": "Published 3 commits",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "0dab266",
+          "message": "Agent connection verification expanded"
+        },
+        {
+          "hash": "4bb63d5",
+          "message": "Endpoint communication protection improved"
+        },
+        {
+          "hash": "552dd39",
+          "message": "Device communication security improved"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "0dab266",
+      "at": "2026-11-10T21:02:12+01:00",
+      "author": "Artin",
+      "title": "Agent connection verification expanded",
+      "description": "Expanded automated checks for endpoint communication and device enrollment. Updated the related connection documentation.",
+      "filesChanged": 5,
+      "added": 437,
+      "removed": 0,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "4bb63d5",
+      "at": "2026-11-10T21:02:08+01:00",
+      "author": "Artin",
+      "title": "Endpoint communication protection improved",
+      "description": "Strengthened validation of incoming endpoint messages and secure connection handling. Added automated verification for the updated behavior.",
+      "filesChanged": 11,
+      "added": 449,
+      "removed": 91,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "552dd39",
+      "at": "2026-11-10T21:02:03+01:00",
+      "author": "Artin",
+      "title": "Device communication security improved",
+      "description": "Improved protection of device communication and enrollment credentials. Updated compatibility handling for endpoint releases.",
+      "filesChanged": 7,
+      "added": 326,
+      "removed": 35,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "21643f8",
+      "at": "2026-11-10T19:30:23Z",
+      "author": "Artin",
+      "count": 1,
+      "title": "Published 1 commit",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "21643f8",
+          "message": "Unused code removed"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "21643f8",
+      "at": "2026-11-10T20:30:22+01:00",
+      "author": "Artin",
+      "title": "Unused code removed",
+      "description": "Removed unused interface components, outdated automation code and temporary development utilities to simplify maintenance.",
+      "filesChanged": 16,
+      "added": 2,
+      "removed": 1617,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "58a5515",
+      "at": "2026-11-10T19:23:06Z",
+      "author": "Artin",
+      "count": 1,
+      "title": "Published 1 commit",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "58a5515",
+          "message": "More reproducible dependency installs"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "58a5515",
+      "at": "2026-11-10T20:23:04+01:00",
+      "author": "Artin",
+      "title": "More reproducible dependency installs",
+      "description": "Pinned dependency versions to make installations more consistent. Verified the affected interface builds.",
+      "filesChanged": 4,
+      "added": 132,
+      "removed": 66,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "73b58cc",
+      "at": "2026-11-10T19:20:42Z",
+      "author": "Artin",
+      "count": 1,
+      "title": "Published 1 commit",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "73b58cc",
+          "message": "Automated quality checks expanded"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "73b58cc",
+      "at": "2026-11-10T20:20:40+01:00",
+      "author": "Artin",
+      "title": "Automated quality checks expanded",
+      "description": "Expanded automated server and endpoint checks and dependency auditing. Updated dependencies and improved test setup consistency.",
+      "filesChanged": 5,
+      "added": 182,
+      "removed": 86,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "5f3ad98",
+      "at": "2026-11-10T19:14:15Z",
+      "author": "Artin",
+      "count": 2,
+      "title": "Published 2 commits",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "5f3ad98",
+          "message": "Workflow test isolation improved"
+        },
+        {
+          "hash": "b5d1c1b",
+          "message": "Access-control verification corrected"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "5f3ad98",
+      "at": "2026-11-10T20:14:09+01:00",
+      "author": "Artin",
+      "title": "Workflow test isolation improved",
+      "description": "Separated automated workflow test jobs from ordinary background processing to reduce inconsistent test results.",
+      "filesChanged": 6,
+      "added": 47,
+      "removed": 5,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "b5d1c1b",
+      "at": "2026-11-10T20:14:09+01:00",
+      "author": "Artin",
+      "title": "Access-control verification corrected",
+      "description": "Corrected automated checks for console access, permissions and organisation boundaries. Aligned the checks with the current application behavior.",
+      "filesChanged": 5,
+      "added": 21,
+      "removed": 5,
+      "commits": []
+    },
+    {
+      "type": "push",
+      "hash": "5c708be",
+      "at": "2026-11-10T19:03:02Z",
+      "author": "Artin",
+      "count": 9,
+      "title": "Published 9 commits",
+      "description": "",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": [
+        {
+          "hash": "5c708be",
+          "message": "Implementation and deployment documentation updated"
+        },
+        {
+          "hash": "35647e3",
+          "message": "Console, reporting and support chat improvements"
+        },
+        {
+          "hash": "12af56c",
+          "message": "AI insights planning and scheduling improved"
+        },
+        {
+          "hash": "42af313",
+          "message": "Dashboard charts and legends expanded"
+        },
+        {
+          "hash": "8db7970",
+          "message": "Endpoint maintenance and patch reporting expanded"
+        },
+        {
+          "hash": "3a300b3",
+          "message": "Additional verification for privileged actions"
+        },
+        {
+          "hash": "e892795",
+          "message": "Technician permissions and console access refined"
+        },
+        {
+          "hash": "3e8436f",
+          "message": "Application security improvements"
+        },
+        {
+          "hash": "df1165f",
+          "message": "Workflow editor and automation expanded"
+        }
+      ]
+    },
+    {
+      "type": "commit",
+      "hash": "5c708be",
+      "at": "2026-11-10T20:01:46+01:00",
+      "author": "Artin",
+      "title": "Implementation and deployment documentation updated",
+      "description": "Consolidated implementation planning documents and removed outdated specifications. Updated deployment exclusions.",
+      "filesChanged": 9,
+      "added": 1665,
+      "removed": 783,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "35647e3",
+      "at": "2026-11-10T20:01:45+01:00",
+      "author": "Artin",
+      "title": "Console, reporting and support chat improvements",
+      "description": "Added reporting views and configurable overview layouts. Improved ticket navigation, support chat handoff, device diagnostics and interface consistency.",
+      "filesChanged": 65,
+      "added": 10874,
+      "removed": 3619,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "12af56c",
+      "at": "2026-11-10T20:01:37+01:00",
+      "author": "Artin",
+      "title": "AI insights planning and scheduling improved",
+      "description": "Updated AI insights planning, department scope and scheduling. Refined the related settings and interface.",
+      "filesChanged": 13,
+      "added": 666,
+      "removed": 144,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "42af313",
+      "at": "2026-11-10T20:01:36+01:00",
+      "author": "Artin",
+      "title": "Dashboard charts and legends expanded",
+      "description": "Added radial chart variations, chart patterns and legends. Improved chart animation and ticket activity visualisation.",
+      "filesChanged": 48,
+      "added": 7182,
+      "removed": 63,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "8db7970",
+      "at": "2026-11-10T20:01:27+01:00",
+      "author": "Artin",
+      "title": "Endpoint maintenance and patch reporting expanded",
+      "description": "Expanded endpoint update and maintenance capabilities. Improved patch reports, inventory integration and automated endpoint checks.",
+      "filesChanged": 33,
+      "added": 6517,
+      "removed": 354,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "3a300b3",
+      "at": "2026-11-10T20:01:23+01:00",
+      "author": "Artin",
+      "title": "Additional verification for privileged actions",
+      "description": "Added additional identity verification for privileged device operations and refined the associated sign-in experience.",
+      "filesChanged": 6,
+      "added": 1285,
+      "removed": 33,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "e892795",
+      "at": "2026-11-10T20:01:22+01:00",
+      "author": "Artin",
+      "title": "Technician permissions and console access refined",
+      "description": "Aligned technician permissions with console page access. Expanded checks that users can access only the features available to their role.",
+      "filesChanged": 9,
+      "added": 2068,
+      "removed": 41,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "3e8436f",
+      "at": "2026-11-10T20:01:19+01:00",
+      "author": "Artin",
+      "title": "Application security improvements",
+      "description": "Improved request handling, auditability and protection of public-facing application features. Expanded automated security checks.",
+      "filesChanged": 16,
+      "added": 3024,
+      "removed": 17,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "df1165f",
+      "at": "2026-11-10T20:01:11+01:00",
+      "author": "Artin",
+      "title": "Workflow editor and automation expanded",
+      "description": "Added a visual workflow editor, organised workflow folders and approval flows. Expanded change planning and vulnerability matching, with related automated checks.",
+      "filesChanged": 93,
+      "added": 28773,
+      "removed": 905,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "e5c71fa",
+      "at": "2026-10-07T23:41:30+02:00",
+      "author": "Artin",
+      "title": "Interface and procurement improvements",
+      "description": "Refined the console interface, billing visualisations and procurement experience. Updated related views and checks.",
+      "filesChanged": 29,
+      "added": 4298,
+      "removed": 829,
+      "commits": []
+    },
+    {
+      "type": "commit",
+      "hash": "e5e4ab8",
+      "at": "2026-10-07T00:48:19+02:00",
+      "author": "Artin",
+      "title": "Development updates consolidated",
+      "description": "Consolidated development changes while preserving the current application state.",
+      "filesChanged": 0,
+      "added": 0,
+      "removed": 0,
+      "commits": []
+    }
+  ]
+}

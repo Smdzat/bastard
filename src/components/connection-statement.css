@@ -1,0 +1,79 @@
+.connection-section {
+  padding-block: clamp(100px, 14svh, 160px) clamp(112px, 16svh, 180px);
+  background: var(--flow-background, var(--site-background));
+  font-family: 'Inter Variable', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.connection-section:focus { outline: none; }
+.connection-container { width: calc(100% - var(--flow-gutter) * 2); max-width: var(--flow-width); margin-inline: auto; padding-inline: 56px; }
+.connection-heading { margin: 0; font-family: inherit; font-size: clamp(44px, 5.3vw, 76px); font-weight: 500; letter-spacing: -.057em; line-height: 1.27; }
+.connection-visual { display: block; }
+.connection-line { display: flex; align-items: center; gap: .23em; min-height: 1.34em; white-space: nowrap; }
+
+/* Keep the words visible as they sharpen and gain contrast. */
+.connection-word {
+  --word-progress: 0;
+  display: inline-block;
+  flex-shrink: 0;
+  opacity: 1;
+  color: color-mix(in srgb, var(--site-text) calc(var(--word-progress) * 100%), #a3aaa5);
+  filter: blur(calc(2.8px * (1 - var(--word-progress))));
+}
+
+.connection-inline-icon { position: relative; display: inline-block; width: 1.23em; height: 1.24em; flex-shrink: 0; margin-inline: .04em; transform: rotate(var(--icon-tilt)); }
+.connection-inline-icon img { position: absolute; inset: -.13em; width: 1.5em; height: 1.5em; max-width: none; object-fit: contain; filter: drop-shadow(0 .08em .06em #17362112); animation: connection-float 6.8s ease-in-out var(--float-delay) infinite; animation-play-state: paused; }
+.connection-section[data-in-view="true"] .connection-inline-icon img { animation-play-state: running; }
+
+.connection-ending { gap: .27em; }
+.connection-toggle {
+  position: relative;
+  display: inline-block;
+  width: 1.38em;
+  height: .7em;
+  flex-shrink: 0;
+  border: 1px solid #a7cdb3;
+  border-radius: 100px;
+  background: linear-gradient(112deg, #c4e4c9, #7ab38d);
+  box-shadow: inset 0 1px 2px #ffffff65, 0 5px 12px #1b5a3221;
+  transform: rotate(-3deg) translateY(.035em);
+  isolation: isolate;
+  font-size: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+.connection-toggle[aria-checked='true'] { background: linear-gradient(112deg, #54b57b, #287e54); }
+.connection-toggle::before { content: ''; position: absolute; inset: 1px 1px 45%; border-radius: 100px 100px 50% 50%; background: linear-gradient(180deg, #ffffff36, #ffffff00); pointer-events: none; }
+.connection-toggle-thumb { position: absolute; left: .07em; top: .07em; width: .54em; height: .54em; border: 1px solid #fff; border-radius: 50%; background: linear-gradient(145deg, #fff 20%, #fbfdf9 65%, #e8f0e6); box-shadow: inset 0 1px 2px #fff, inset 0 -1px 2px #e4eee1, 0 3px 6px #285c3833; transition: transform .5s cubic-bezier(.22,1,.36,1), box-shadow .4s; }
+.connection-toggle[aria-checked='true'] .connection-toggle-thumb { transform: translateX(.67em); }
+.connection-toggle-equals { position: absolute; top: .3em; right: .3em; display: grid; gap: .055em; opacity: .45; }
+.connection-toggle[aria-checked='true'] .connection-toggle-equals { right: auto; left: .3em; }
+.connection-toggle-equals > span { width: .17em; height: 1px; background: #244d36; }
+
+@keyframes connection-float {
+  0%, 100% { transform: translate3d(0, 1px, 0) rotate(-.5deg); }
+  50% { transform: translate3d(0, -3px, 0) rotate(.7deg); }
+}
+
+@media (max-width: 1100px) {
+  .connection-container { padding-inline: 24px; }
+  .connection-heading { font-size: clamp(40px, 5.3vw, 64px); }
+}
+@media (max-width: 700px) {
+  .connection-section { padding-block: 80px 96px; }
+  .connection-container { padding-inline: 0; }
+  .connection-heading { font-size: clamp(26px, 5.35vw, 40px); letter-spacing: -.055em; }
+  .connection-line { min-height: 1.52em; gap: .19em; flex-wrap: wrap; white-space: normal; }
+  .connection-inline-icon { width: 1.3em; height: 1.34em; }
+  .connection-ending { gap: .3em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .connection-word { color: var(--site-text); filter: none; }
+  .connection-inline-icon, .connection-inline-icon img, .connection-toggle-thumb { animation: none; transition: none; }
+}
+@media (max-width: 380px) {
+  .connection-heading { font-size: 22px; }
+}
+@media (forced-colors: active) {
+  .connection-word { color: CanvasText; filter: none; }
+}

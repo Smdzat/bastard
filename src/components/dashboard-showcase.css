@@ -1,0 +1,190 @@
+@property --showcase-contour {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 1;
+}
+
+.dashboard-showcase {
+  --showcase-background: #050505;
+  --showcase-panel: #0c0d0d;
+  --showcase-line: #242524;
+  --showcase-text: #eef2f0;
+  --showcase-rise-size: clamp(27px, 4vw, 46px);
+  --showcase-preview-height: clamp(390px, 58vw, 620px);
+  --showcase-preview-chrome: 55px;
+  --showcase-corner-size: 24px;
+  --showcase-shoulder: 26%;
+  --showcase-crest: 33%;
+  --showcase-shoulder-control: 30%;
+  --showcase-crest-control: 29.5%;
+  width: min(1120px, calc(100% - clamp(24px, 4.5vw, 72px) * 2));
+  margin-inline: auto;
+  padding-block: clamp(34px, 4.5vw, 64px) clamp(40px, 5vw, 72px);
+  scroll-margin-top: 34px;
+  font-family: 'Inter Variable', Arial, sans-serif;
+}
+
+.dashboard-showcase-heading { margin: 0 auto 28px; text-align: center; }
+.dashboard-showcase-heading h1 { margin: 0; color: var(--site-text); font-size: clamp(30px, 4.3vw, 54px); font-weight: 750; line-height: 1.07; letter-spacing: -.055em; }
+.dashboard-showcase-heading p { max-width: 500px; margin: 12px auto 0; color: var(--site-dim); font-size: 15px; line-height: 1.5; }
+.dashboard-mobile-summary { display: none; }
+@media (max-width: 700px) {
+  .dashboard-showcase-window:not(.is-opening-demo) { display: none; }
+  .dashboard-mobile-summary {
+    display: grid;
+    gap: 19px;
+    padding: 22px;
+    border: 1px solid #233a31;
+    border-radius: 21px;
+    background: radial-gradient(ellipse at top right, #164032, #101b17 70%);
+    color: #fff;
+  }
+  .dashboard-mobile-label { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 650; }
+  .dashboard-mobile-label img { border-radius: 6px; }
+  .dashboard-mobile-summary ul { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none; }
+  .dashboard-mobile-summary li { display: grid; gap: 4px; padding-top: 10px; border-top: 1px solid #ffffff24; font-size: 13px; }
+  .dashboard-mobile-summary li span { color: #c6d8cd; font-size: 12px; }
+  .dashboard-mobile-summary > a { display: flex; justify-content: space-between; align-items: center; gap: 10px; min-height: 43px; padding: 8px 13px; border-radius: 9px; background: #edf6ef; color: #122d20; font-size: 13px; font-weight: 650; }
+  .dashboard-mobile-summary > a:focus-visible { outline-color: #edf6ef; }
+}
+.dashboard-showcase-window { position: relative; inset: auto; width: 100%; max-width: none; max-height: none; margin: 0; padding: 0; isolation: isolate; overflow: hidden; color-scheme: dark; background: var(--showcase-background); border: 1px solid var(--showcase-line); border-radius: 24px; box-shadow: 0 18px 52px #14231a1a; }
+.dashboard-showcase-window[open] { animation: none; }
+.dashboard-preview-launch {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  cursor: pointer;
+}
+.dashboard-preview-launch:focus-visible { outline: 2px solid #55d9a4; outline-offset: -5px; }
+.is-opening-demo .dashboard-preview-launch { display: none; }
+.dashboard-showcase-toolbar { display: flex; align-items: center; min-height: 53px; padding: 6px 16px; border-bottom: 1px solid var(--showcase-line); background: var(--showcase-panel); color: var(--showcase-text); font-size: 13px; font-weight: 600; }
+.dashboard-showcase iframe { display: block; width: 100%; height: var(--showcase-preview-height); border: 0; pointer-events: none; }
+.dashboard-showcase-slot.has-open-demo { height: calc(var(--showcase-preview-height) + var(--showcase-preview-chrome)); }
+
+.dashboard-showcase-window.is-opening-demo {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100dvh;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transform-origin: top left;
+}
+
+.dashboard-showcase-window::backdrop {
+  background: #050705;
+  animation: showcase-dim .44s ease-out both;
+}
+
+.dashboard-showcase-window:not(.is-opening-demo) .demo-home-nav { display: none; }
+.is-opening-demo .dashboard-showcase-toolbar { display: none; }
+.is-opening-demo iframe {
+  flex: 1;
+  height: auto;
+  min-height: 0;
+  pointer-events: auto;
+  animation: showcase-content-in .39s ease-out both;
+}
+
+.dashboard-showcase-window.is-returning-demo,
+.is-returning-demo iframe { pointer-events: none; }
+.is-returning-demo::backdrop { animation: showcase-undim .34s ease-in-out both; }
+.is-returning-demo iframe { animation: showcase-content-return .34s ease-in-out both; }
+.is-returning-demo .demo-home-nav { animation: showcase-chrome-out .25s ease-out both; }
+.has-returned-demo :is(iframe, .dashboard-showcase-toolbar) { animation: showcase-preview-reveal .16s ease-out both; }
+
+@keyframes showcase-dim {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes showcase-content-in {
+  from { opacity: .42; }
+  to { opacity: 1; }
+}
+
+@keyframes showcase-undim {
+  from { opacity: var(--showcase-return-shade, 1); }
+  to { opacity: 0; }
+}
+
+@keyframes showcase-content-return {
+  from { opacity: var(--showcase-return-opacity, 1); }
+  30% { opacity: var(--showcase-return-opacity, 1); }
+  to { opacity: 0; }
+}
+
+@keyframes showcase-preview-reveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes showcase-chrome-out {
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-opening-demo iframe,
+  .has-returned-demo :is(iframe, .dashboard-showcase-toolbar),
+  .dashboard-showcase-window::backdrop { animation: none; }
+}
+
+@media (max-width: 650px) {
+  .dashboard-showcase {
+    --showcase-corner-size: 18px;
+    --showcase-shoulder: 12%;
+    --showcase-crest: 23%;
+    --showcase-shoulder-control: 18%;
+    --showcase-crest-control: 17%;
+  }
+  .dashboard-showcase-window { border-radius: 18px; }
+  .dashboard-showcase-toolbar { padding-inline: 12px; font-size: 12px; }
+}
+
+@media (max-width: 400px) {
+  .dashboard-showcase {
+    --showcase-shoulder: 7%;
+    --showcase-crest: 14%;
+    --showcase-shoulder-control: 11%;
+    --showcase-crest-control: 10.5%;
+  }
+}
+
+@supports (clip-path: shape(from 0 0, curve to 100% 0 with 30% 0 / 60% 0, close)) {
+  .dashboard-showcase { --showcase-preview-chrome: calc(var(--showcase-rise-size) + 43px); }
+  .dashboard-showcase-window {
+    --rise: calc(var(--showcase-rise-size) * var(--showcase-contour));
+    --corner: calc(var(--showcase-corner-size) * var(--showcase-contour));
+    --handle: calc(var(--corner) * .448);
+    border-radius: 0;
+    clip-path: shape(
+      from 0 calc(var(--rise) + var(--corner)),
+      curve to var(--corner) var(--rise) with 0 calc(var(--rise) + var(--handle)) / var(--handle) var(--rise),
+      line to var(--showcase-shoulder) var(--rise),
+      curve to var(--showcase-crest) 0 with var(--showcase-shoulder-control) var(--rise) / var(--showcase-crest-control) 0,
+      line to calc(100% - var(--showcase-crest)) 0,
+      curve to calc(100% - var(--showcase-shoulder)) var(--rise) with calc(100% - var(--showcase-crest-control)) 0 / calc(100% - var(--showcase-shoulder-control)) var(--rise),
+      line to calc(100% - var(--corner)) var(--rise),
+      curve to 100% calc(var(--rise) + var(--corner)) with calc(100% - var(--handle)) var(--rise) / 100% calc(var(--rise) + var(--handle)),
+      line to 100% calc(100% - var(--corner)),
+      curve to calc(100% - var(--corner)) 100% with 100% calc(100% - var(--handle)) / calc(100% - var(--handle)) 100%,
+      line to var(--corner) 100%,
+      curve to 0 calc(100% - var(--corner)) with var(--handle) 100% / 0 calc(100% - var(--handle)),
+      close
+    );
+  }
+
+  .dashboard-showcase-window.is-opening-demo { --showcase-contour: 0; }
+  .dashboard-showcase-toolbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: var(--showcase-rise-size) 40px;
+    gap: 0;
+    padding-block: 0;
+  }
+  .dashboard-showcase-toolbar > span { grid-row: 2; align-self: center; }
+}

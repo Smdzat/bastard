@@ -1,0 +1,6 @@
+.reference-flow {
+  --flow-background: var(--site-background);
+  --flow-width: 1120px;
+  --flow-gutter: clamp(24px, 4.5vw, 72px);
+  background: var(--flow-background);
+}

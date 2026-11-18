@@ -1,0 +1,65 @@
+#admin-shell > .admin-topbar {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem) minmax(max-content, 1fr);
+  column-gap: 16px;
+}
+
+#admin-shell > .admin-topbar > .admin-global-search-wrap {
+  min-width: 0;
+  justify-self: center;
+}
+
+#admin-shell .admin-global-search-wrap > .admin-search { height: 34px; }
+#admin-global-search { min-width: 0; }
+
+/* The card heading already identifies the metric. Keep its center to the value. */
+.ai-spend-gauge .truncate { display: none; }
+
+.fleet-readiness-layout { container-type: size; grid-template-columns: minmax(0, 1fr); gap: .35rem; }
+.fleet-readiness-chart {
+  width: min(100%, 13.5rem, max(0px, calc(100cqh - 4.25rem)));
+  height: auto;
+  max-height: none;
+}
+.fleet-readiness-chart > div { display: grid; place-items: center; }
+.fleet-readiness-legend { max-width: 19rem; }
+.fleet-readiness-chart :has(> .fleet-ring-label) { container-type: inline-size; gap: 1px; }
+.fleet-readiness-chart .fleet-ring-value { font-size: clamp(11px, 48cqi, 25px); line-height: 1; }
+.fleet-readiness-chart .fleet-ring-label {
+  max-width: calc(100% + 10px);
+  font-size: clamp(5px, 23cqi, 11px);
+  line-height: 1.05;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 880px) {
+  #admin-shell > .admin-topbar {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) max-content;
+    column-gap: 10px;
+  }
+  #project-selector, #project-selector .wsp-trigger { max-width: 100%; }
+}
+
+@media (max-width: 740px) {
+  #admin-shell > .admin-topbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 6px;
+    height: auto !important;
+    min-height: 64px;
+    padding-block: 8px;
+  }
+  #admin-shell > .admin-topbar > .admin-global-search-wrap { grid-area: 2 / 1 / 3 / -1; max-width: 19rem; justify-self: start; }
+  #admin-shell > .admin-topbar > .admin-topbar-right { grid-area: 1 / 2; }
+  #ov-header-controls .ov-view-controls, #ov-header-controls .ov-edit-controls { flex-wrap: wrap; }
+}
+
+@media (max-width: 640px) {
+  #admin-shell #sidebar { width: 10rem; }
+  .nevian-demo-embedded #sidebar { display: none; }
+  .nevian-demo-embedded .admin-content-col { padding-inline: 0; }
+  #admin-shell > .admin-topbar { grid-template-columns: minmax(0, 1fr); }
+  #admin-shell > .admin-topbar > .admin-topbar-right { grid-area: 3 / 1; justify-self: start; max-width: 100%; }
+  #admin-topbar-extra { flex: 0 1 auto; min-width: 0; }
+}
