@@ -33,7 +33,7 @@ export function Navigation({ onDemoRequest }: { onDemoRequest: () => void }) {
         <button className="nav-contact-close" type="button" aria-label="Close contact" onClick={() => contactRef.current?.close()}><Icon name="close" /></button>
         <p className="section-label"><span aria-hidden="true" /> Contact Naivano</p>
         <h2 id="contact-title">Let's talk about your IT.</h2>
-        <p>Direct contact details will be available here soon.</p>
+        <p>Write to us at <a href="mailto:artin@naivano.com">artin@naivano.com</a></p>
         <a href="/#faq" onClick={() => contactRef.current?.close()}>Read the FAQ <Icon name="arrow" /></a>
       </div>
     </dialog>

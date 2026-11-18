@@ -50,7 +50,7 @@ function PrivateRepositoryNotice({ children, className = '' }: { children: React
     {open && <span id={id} className="progress-private-popup" role="note">
       <strong>Private repository</strong>
       <span>For development questions, please contact</span>
-      <a href="mailto:contact-artin@neivano.com">contact-artin@neivano.com</a>
+      <a href="mailto:artin@naivano.com">artin@naivano.com</a>
     </span>}
   </span>
 }
